@@ -1,0 +1,8 @@
+.tag__text {
+    background-color: var(--primary-color);
+    height: 25px;
+    padding: 0.25rem 3rem;
+    border-radius: 10px;
+    color: var(--white-color);
+    margin-right:1rem;
+}

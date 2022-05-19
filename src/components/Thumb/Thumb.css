@@ -1,0 +1,43 @@
+.thumb__container {
+    position: relative;
+}
+
+.thumb__img {
+    /* position:relative; */
+    width: 21.25rem;
+    height: 21.25rem;
+    border-radius: .625rem;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.thumb__bg {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    width: 21.25rem;
+    height: 21.25rem;
+    border-radius: .625rem;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.thumb__title {
+    position: absolute;
+    left: 5.88%;
+    right: 5.88%;
+    top: 78.82%;
+    bottom: 5.88%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    display: flex;
+    align-items: flex-end;
+
+    color: var(--white-color);
+}

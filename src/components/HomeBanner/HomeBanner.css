@@ -1,0 +1,35 @@
+.homeBanner__container {
+    position: relative;
+}
+
+.homeBanner__img {
+    max-width: 100%;
+    border-radius: 1.5625rem;
+}
+.homeBanner__bg{
+    position: absolute;
+    background: #000000;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+    max-width: 100%;
+    border-radius: 1.5625rem;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 2%;
+}
+
+.homeBanner__title {
+    position: absolute;
+    left: 25.9%;
+    right: 25.14%;
+    top: 24.32%;
+    bottom: 69.04%;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 142.6%;
+    color: var(--white-color);
+}

@@ -1,0 +1,14 @@
+.dropdown__container {
+    display:block;
+    border-radius: .625rem;
+    width:90%;
+    margin:auto
+}
+.dropdown__container {
+    width: 90%;
+    border-radius: .625rem;
+    margin-top:1rem;
+}
+.dropdown__button{
+    width:100%;
+}

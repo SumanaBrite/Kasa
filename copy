@@ -1,0 +1,46 @@
+ <img src="./Background.png" alt="">
+      <section class="housing_content1">
+        <div class="housing_title">
+          <h2>Cozy loft on the Canal Saint-Martin</h2>
+          <p>Paris, Île-de-France</p>
+       </div>
+       <div class="housing_rightTitle">
+         <div class="housing_name">
+           <p>Alexandre</p>
+           <p>Dumas</p>
+         </div>
+         <div class="housing_host">
+         <img src="./Host.png" alt="host">
+        </div>
+       </div>
+      </section>
+      <section class="housing_content2">
+        <ul class="housing_tags">
+        <li>Cozy</li>
+        <li>Canal</li>
+        <li>Paris 10</li>
+        </ul>
+        <div class="housing_stars">
+        <i class="fas fa-star color-star"></i>
+        <i class="fas fa-star color-star"></i>
+        <i class="fas fa-star color-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        </div>
+      </section>
+      <section class="housing_content3">
+        <div class="description">
+          <p>Vous serez à 50m du canal Saint-martin où vous pourrez pique-niquer l'été et à côté de nombreux bars et restaurants. Au cœur de Paris avec 5 lignes de métro et de nombreux bus. Logement parfait pour les voyageurs en solo et les voyageurs d'affaires. Vous êtes à1 station de la gare de l'est (7 minutes à pied). </p>
+        </div>
+        <div class="equipments">
+          <ul>
+            <li>Climatisation</li>
+            <li>Wi-Fi</li>
+            <li>Cuisine</li>
+            <li>Espace de travail</li>
+            <li>Fer à repasser</li>
+            <li>Sèche-cheveux</li>
+            <li>Cintres</li>
+           </ul>
+        </div>
+      </section>

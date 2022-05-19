@@ -1,0 +1,8 @@
+.housing__contents{
+    display: flex;
+    justify-content: space-between;
+}
+.housing__details{
+    display: flex;
+    justify-content: space-between;
+}
