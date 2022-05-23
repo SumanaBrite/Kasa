@@ -27,7 +27,6 @@
     color: var(--white-color);
     
 }
-
 .dropdown__arrow {
     line-height: 142.6%;
     position: absolute;
@@ -39,6 +38,10 @@
     width: 15.560005187988295px;
     /* transform: rotate(90deg); */
 }
+.trans__rotate{
+        transform: rotate(180deg);
+
+}
 .dropdown__content{
     background-color: var(--white-color);
     color: var(--primary-color);
@@ -46,5 +49,8 @@
 }
 .show{
     display:block;
+}
+li{
+    list-style: none;
 }
 

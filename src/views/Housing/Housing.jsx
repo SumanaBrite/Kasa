@@ -11,9 +11,9 @@ export default function Housing() {
   const { id } = useParams()
   return (
     <main>
-      {housing.map((house) => {
+      {housing.map((house, i) => {
         if (house.id === id)
-          return <div>
+          return <div key={i + "housing" }>
             <section className="housing__banner">
               <p>hi</p>
               <Carousel pictures={house.pictures}  />
@@ -21,7 +21,8 @@ export default function Housing() {
                 <div className="housing__info">
                   <h1 className="housing__title">{house.title}</h1>
                   <p className="housing__location">{house.location}</p>
-                  <Tag tags={house.tags}/>
+                    <Tag tags={house.tags}/>
+                
                 </div>
                 <div>
                 <Host key={house.host.id} name={house.host.name} image={house.host.picture} />
@@ -31,9 +32,15 @@ export default function Housing() {
 
               </div>
             </section>
-            <section className="housing__details">
-              <Dropdown />
-              <Dropdown />
+            <section className="housing__dropdowns">
+          
+              <Dropdown title="description" content={house.description}/>
+
+          
+          
+              <Dropdown title ="equipments" content={house.equipments}/>
+
+        
             </section>
 
           </div>

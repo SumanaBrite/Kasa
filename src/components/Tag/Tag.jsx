@@ -7,9 +7,9 @@ export default function Tag({tags}) {
         <div className="housing__tags">
             {tags.map((tag, i) => {
                 return (
-        
-                        <span key={i + 'tag'} className="tag__text">{tag}</span>
-            
+                    <div key={i + 'tag'}>
+                        <span className="tag__text">{tag}</span>
+                    </div>
                 )
             })}
 

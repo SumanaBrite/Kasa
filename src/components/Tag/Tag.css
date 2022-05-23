@@ -6,3 +6,6 @@
     color: var(--white-color);
     margin-right:1rem;
 }
+.housing__tags{
+    display: flex;
+}

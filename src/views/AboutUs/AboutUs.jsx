@@ -9,8 +9,8 @@ export default function AboutUs() {
     <main>
       <AboutBanner />
 
-        {aboutUs.map((aboutData) => {
-          return <Dropdown key={aboutData.id} id={aboutData.id} title={aboutData.title} content={aboutData.content} />
+        {aboutUs.map((aboutData, i) => {
+          return <Dropdown key={i + "aboutData"} id={aboutData.id} title={aboutData.title} content={aboutData.content} />
         })
         }
         

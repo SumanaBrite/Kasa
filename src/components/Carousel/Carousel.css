@@ -5,3 +5,29 @@
     border-radius: 25px;
 
 }
+.lightBox-content{
+    position: relative;
+}
+.lightBox-content .cursor {
+    cursor: pointer;
+    position:relative;
+  }
+  .lightBox-content .prev,
+.lightBox-content .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  /* padding: 16px; */
+  font-weight: bold;
+  border-radius: 0 3px 3px 0;
+  width: 2rem;
+  z-index: 10;
+}
+.lightBox-content .prev {
+    left: 3rem;
+    transform: rotate(180deg);
+  }
+  .lightBox-content .next {
+    right: 3rem;
+  }
