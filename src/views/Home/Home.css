@@ -3,7 +3,7 @@
     padding-left: 2rem;
     padding-right: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     background-color: rgba(226, 226, 224, 0.541);
     border-radius: 1.5625rem;

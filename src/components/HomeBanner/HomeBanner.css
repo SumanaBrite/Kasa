@@ -32,3 +32,22 @@
     line-height: 142.6%;
     color: var(--white-color);
 }
+
+@media screen and (max-width: 850px) {
+    .homeBanner {
+        margin: 0 2rem;
+    }
+
+    .homeBanner__img,
+    .homeBanner__bg {
+        height: 6.9375rem;
+        border-radius: .625rem;
+    }
+
+    .homeBanner__title {
+        font-size: 1.5rem;
+        line-height: 100%;
+        text-align: start;
+        left:10%;
+    }
+}

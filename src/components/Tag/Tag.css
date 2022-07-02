@@ -1,3 +1,4 @@
+
 .tag__text {
     background-color: var(--primary-color);
     height: 25px;
@@ -8,4 +9,10 @@
 }
 .housing__tags{
     display: flex;
+    line-height: 2rem;
+}
+@media screen and (max-width: 850px) {
+    .tag__text{
+        padding: 0.25rem 0.5rem;
+}
 }

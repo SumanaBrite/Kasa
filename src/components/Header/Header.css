@@ -18,3 +18,8 @@ header nav a {
 header nav a:focus{
     text-decoration: underline;
 }
+@media screen and (max-width: 480px) {
+   .logo{
+       padding: 0px;
+   }
+  }

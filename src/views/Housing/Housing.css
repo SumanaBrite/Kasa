@@ -1,8 +1,37 @@
+
+.housing__dropdownLeft, .housing__dropdownRight{
+    width: 100%;
+}
+.housing__dropdownLeft{
+    margin-left: 0px;
+}
+.housing__dropdownRight{
+    margin-right: 0px;
+}
 .housing__contents{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 3rem;
 }
 .housing__dropdowns{
     display: flex;
     justify-content: space-between;
 }
+@media screen and (max-width: 850px) {
+    .housing__dropdowns{
+        display:block;
+    }
+    .housing__rightinfo{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .housing__contents {
+      display: block;
+    }
+    .housing__title{
+        font-size: 1.5rem;
+    }
+  
+    }
