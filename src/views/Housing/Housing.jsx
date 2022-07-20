@@ -12,9 +12,10 @@ export default function Housing() {
   return (
     
     <main>
-      {housing.map((house, i) => {
-        if (house.id === id)
-          return <div key={i + "housing"}>
+      {housing.map((house, i) => (
+        <>
+        {house.id === id && (
+          <div key={i + "housing"}>
             <Carousel pictures={house.pictures} />
             <div className="housing__contents">
               <div className="housing__info">
@@ -40,8 +41,12 @@ export default function Housing() {
             </section>
 
           </div>
+        )}      
+          </>
 
-      })}
+      ))}
+        
+    
     </main>
   )
 
